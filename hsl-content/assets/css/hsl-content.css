@@ -1,0 +1,10 @@
+/* HSL Content Admin Styles */
+.wrap {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+}

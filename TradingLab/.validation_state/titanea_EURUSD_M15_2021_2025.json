@@ -1,0 +1,38 @@
+{
+  "strategy_name": "titanea",
+  "data_file": "data/raw/EURUSD_M15_2021_2025.csv",
+  "training_start_date": "2021-01-01",
+  "training_end_date": "2023-12-31",
+  "oos_start_date": "2021-01-01",
+  "oos_end_date": "2024-12-31",
+  "phase1_training_completed": false,
+  "phase1_passed": false,
+  "phase1_completed_at": null,
+  "phase1_failure_count": 0,
+  "phase1_last_failure_date": null,
+  "phase2_oos_completed": false,
+  "phase2_passed": false,
+  "phase2_completed_at": null,
+  "phase3_stationarity_completed": false,
+  "phase3_passed": false,
+  "phase3_completed_at": null,
+  "optimized_params": null,
+  "phase1_results": null,
+  "phase2_results": null,
+  "phase3_results": null,
+  "holdout_tests": {
+    "2025-01-01_2025-12-31": {
+      "test_date": "2025-12-14T01:16:03.969905",
+      "holdout_start": "2025-01-01",
+      "holdout_end": "2025-12-31",
+      "total_trades": 248,
+      "win_rate": 52.016129032258064,
+      "pf": 1.6213479100559096,
+      "sharpe": 2.7835968623812257,
+      "max_drawdown": 2.518274190713545,
+      "total_pnl": 1785.657270968566,
+      "passed": true,
+      "forced": true
+    }
+  }
+}

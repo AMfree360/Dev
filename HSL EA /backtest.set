@@ -1,0 +1,9 @@
+[Settings]
+Symbol=EURUSD
+Period=5
+Model=Every tick
+FromDate=2023-01-01
+ToDate=2025-01-01
+Deposit=2000
+Currency=USD
+Leverage=100

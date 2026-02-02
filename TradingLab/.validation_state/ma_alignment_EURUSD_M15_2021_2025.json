@@ -1,0 +1,61 @@
+{
+  "strategy_name": "ma_alignment",
+  "data_file": "data/raw/EURUSD_M15_2021_2025.csv",
+  "training_start_date": "2021-01-01",
+  "training_end_date": "2023-12-31",
+  "oos_start_date": null,
+  "oos_end_date": null,
+  "phase1_training_completed": true,
+  "phase1_passed": false,
+  "phase1_completed_at": "2025-12-10T20:39:14.439036",
+  "phase1_failure_count": 3,
+  "phase1_last_failure_date": "2025-12-10T20:39:14.439050",
+  "phase2_oos_completed": false,
+  "phase2_passed": false,
+  "phase2_completed_at": null,
+  "phase3_stationarity_completed": false,
+  "phase3_passed": false,
+  "phase3_completed_at": null,
+  "optimized_params": null,
+  "phase1_results": {
+    "monte_carlo": {
+      "final_pnl": {
+        "observed": -466.4948375732154,
+        "p_value": 0.481,
+        "percentile_rank": 51.9
+      },
+      "sharpe": {
+        "observed": -2.0305060110543387,
+        "p_value": 0.592,
+        "percentile_rank": 40.8
+      },
+      "pf": {
+        "observed": 0.6979253189927331,
+        "p_value": 0.613,
+        "percentile_rank": 38.7
+      }
+    },
+    "sensitivity": null,
+    "criteria_checks": {
+      "min_profit_factor": "False",
+      "min_sharpe": "False",
+      "min_trades": true,
+      "mc_final_pnl_p_value": false,
+      "mc_final_pnl_percentile": false,
+      "mc_sharpe_p_value": false,
+      "mc_sharpe_percentile": false,
+      "mc_pf_p_value": false,
+      "mc_pf_percentile": false,
+      "mc_p_value": false,
+      "mc_percentile": false
+    },
+    "failure_reasons": [
+      "Training PF 0.70 < 1.5",
+      "Training Sharpe -2.04 < 1.0",
+      "Monte Carlo p-value too high (strategy not better than random)",
+      "Monte Carlo percentile too low (strategy not better than random)"
+    ]
+  },
+  "phase2_results": null,
+  "phase3_results": null
+}

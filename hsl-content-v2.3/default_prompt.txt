@@ -1,0 +1,44 @@
+Write a detailed SEO-friendly article on "$keyword" in HTML format. The article should include the following sections and formatting:
+
+- Use `<h1>` for the main title.
+- Use `<h2>` for section headings.
+- Use `<h3>` for sub-section headings.
+- Use `<p>` for paragraphs.
+- Use `<ul>` and `<li>` for bullet points.
+- Use `<strong>` for emphasis.
+
+The article should cover the following sections:
+- Introduction to "$keyword"
+- About "$keyword"
+- Ownership of "$keyword"
+- Contact details of "$keyword"
+- How to apply for a job at "$keyword"
+- Salary information for workers at "$keyword"
+- Where "$keyword" is located
+
+Include an FAQ section with at least 10 common questions related to "$keyword".
+
+Ensure the content is well-organized, informative, and engaging.
+-------------------------------------------------------------------------------------------
+
+Write a detailed SEO-friendly article on {keyword} in HTML format. The article should include the following sections and formatting:
+
+- Use `<h1>` for the main title.
+- Use `<h2>` for section headings.
+- Use `<h3>` for sub-section headings.
+- Use `<p>` for paragraphs.
+- Use `<ul>` and `<li>` for bullet points.
+- Use `<strong>` for emphasis.
+
+The article should cover the following sections:
+- Introduction to {keyword}
+- About {keyword}
+- Ownership of {keyword}
+- Contact details of {keyword}
+- How to apply for a job at {keyword}
+- Salary information for workers at {keyword}
+- Where {keyword} is located
+
+Include an FAQ section with at least 10 common questions related to {keyword}.
+
+Ensure the content is well-organized, informative, and engaging.
